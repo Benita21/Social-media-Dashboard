@@ -1,0 +1,40 @@
+.heading{
+  padding: 2rem 0;
+}
+.overviewcards{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .overviewcard{
+    padding: 1rem;
+    background-color: $lightGrayBlue;
+    width: 23%;
+    min-width: 250px;
+    cursor: pointer;
+    border-radius: 5px;
+    .cardviews{
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      p{
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+    }
+    .viewspercent{
+      display: flex;
+      // flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .number{
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .increment{
+        font-size: 0.9rem;
+        color: $LimeGreen;
+      }
+    }
+  }
+}

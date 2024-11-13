@@ -1,0 +1,87 @@
+.light{
+  background-color: $whitetext;
+  color: $textDarkBlue;
+  .topbg{
+    background-color: $opaleblue;
+  }
+  .dashboard{
+    .subtitle{
+      color: $DarkGrayishBlue;
+    }
+  }
+}
+.dark{
+  background-color:$darkblue;
+  color: $whitetext;
+  .topbg{
+    background-color: $stopdarkblue;
+  }
+  .dashboard{
+    header{
+      .darkbtn{
+        background-color: $Toggle;
+        position: relative;
+        .dot{
+          background-color:$textDarkBlue;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+        }
+      }
+    }
+    .title{
+      color: $whitetext;
+    }
+    .subtitle{
+      color: $textColor;
+    }
+    .theme{
+      color:$whitetext ;
+    }
+    .socialcards
+    {
+      .socialcard{
+        background-color: $cardbg;
+        color: $whitetext;
+        &:hover{
+          background-color: $textDarkBlue; 
+         }
+        .followers{
+          .followertext{
+            color: $DarkGrayishBlue;
+          }
+        }
+        .increment{
+          color: $LimeGreen;
+        }
+        .down{
+          color:$YouTube ;
+        }
+      }
+    }
+    .heading{
+      color:$whitetext ;
+    }
+    .overviewcards
+    {
+      .overviewcard{
+        background-color: $cardbg;
+        color: $whitetext;
+        &:hover{
+          background-color: $textDarkBlue; 
+         }
+        .followers{
+          .followertext{
+            color: $DarkGrayishBlue;
+          }
+        }
+        .increment{
+          color: $LimeGreen;
+        }
+        .down{
+          color:$YouTube ;
+        }
+      }
+    }
+  }
+}
